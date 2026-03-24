@@ -6,18 +6,16 @@ biblioteca que pueden solicitar préstamos de libros.*/
 public class Estudiante {
 	
 	//Represente le nombre del estudiante
-	
 	private String nombre;
 	
 	//Constructor que recibe un parámetro un valor String para inicializa el nombre del
 	//estudiante.
-	
 	public Estudiante(String nombre) {
+		super();
 		this.nombre = nombre;
 	}
 	
 	//Devuelve la información del estudiante en formato texto.
-	
 	public String toString() {
 		return "Nombre: " + this.nombre;
 	}
